@@ -57,7 +57,7 @@ decorator==5.1.1
 deeplake==3.3.0
 defusedxml==0.7.1
 Deprecated==1.2.13
-detectron2==0.6
+# detectron2==0.6
 dill==0.3.6
 discord.py==2.2.2
 distlib==0.3.6
