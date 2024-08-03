@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -19,11 +21,14 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-black font-sans antialiased",
           inter.variable
         )}
       >
-        <h1>Home</h1>
+        <Button asChild>
+          <Link href="/">Home</Link>
+        </Button>
+        <br />
         {children}
       </body>
     </html>
