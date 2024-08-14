@@ -7,7 +7,7 @@ export default function Chat() {
   const options = [
     { text: "Text", href: "/text" },
     { text: "Image", href: "/image" },
-    { text: "Voice", href: "/voice" },
+    { text: "Audio", href: "/audio" },
     { text: "Video", href: "/video" },
   ];
   return (
